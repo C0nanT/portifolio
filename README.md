@@ -1,9 +1,9 @@
 # portifolio01
 Acesse ele: https://c0nant.github.io/portifolio01/
 
-![p1](https://github.com/C0nanT/portifolio01/assets/113317279/294dba80-8791-4608-8520-db63405c537b)
-![p2](https://github.com/C0nanT/portifolio01/assets/113317279/644ed1a0-ed98-45da-9198-dfed676adba5)
-![p3](https://github.com/C0nanT/portifolio01/assets/113317279/88d35eca-f9be-4dbd-aa37-6692f11cf1cb)
-![p4](https://github.com/C0nanT/portifolio01/assets/113317279/d9ef53bb-b89b-40dc-a8d1-61b1be3c21fa)
+![a1](https://github.com/C0nanT/portifolio01/assets/113317279/2696dd7e-021d-444c-9df0-5010d1f7ea41)
+![a2](https://github.com/C0nanT/portifolio01/assets/113317279/8612845c-e5bf-49e0-8520-9c9f924aa894)
+![a3](https://github.com/C0nanT/portifolio01/assets/113317279/67098678-3fbe-43a0-8cb2-425619608394)
+![a4](https://github.com/C0nanT/portifolio01/assets/113317279/80faffda-59c1-449d-a686-5f6157b78fa0)
 
 Feito no curso de Front End da Origamid.com
