@@ -84,10 +84,10 @@
 }
 .empresa-texto li a{
   color: #42809d;
+  background-color: #eaeaea;
   text-decoration: none;
   padding: 1px 3px;
   border-radius: 4px;
-  background-color: #eaeaea;
   transition: letter-spacing 0.2s;
 }
 .empresa-texto li:hover a {
