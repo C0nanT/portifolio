@@ -90,9 +90,12 @@
   color: #305d72;
   background-color: #fff;
 }
+.empresa-texto li strong, .empresa-texto li a{
+  transition: letter-spacing 0.2s;
+}
+
 .empresa-texto li:hover strong, .empresa-texto li:hover a{
   letter-spacing: 1px;
-  transition: letter-spacing 0.2s;
 }
 
 .empresa-habilidades {
