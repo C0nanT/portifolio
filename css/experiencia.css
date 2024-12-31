@@ -1,5 +1,5 @@
 .experiencia {
-  max-width: 1200px;
+  max-width: 1300px;
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
@@ -8,7 +8,6 @@
 }
 
 .experiencia .subtitulo {
-  /* color: #e0e0e0; */
   background: #0093e9;
   background: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
   background-clip: rgba(0, 0, 0, 0);
@@ -70,6 +69,28 @@
   line-height: 1.4;
   color: #525252;
 }
+.empresa-texto li{
+  list-style: outside;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
+.empresa-texto li:hover{
+  background-color: #42809d;
+  color: #ffffff;
+}
+.empresa-texto li a{
+  color: #42809d;
+  text-decoration: none;
+  padding: 1px 3px;
+  border-radius: 4px;
+}
+.empresa-texto li:hover a {
+  color: #305d72;
+  background-color: #fff;
+}
+.empresa-texto li:hover strong, .empresa-texto li:hover a{
+  letter-spacing: 1px;
+}
 
 .empresa-habilidades {
   display: flex;
@@ -83,7 +104,7 @@
   padding: 5px 10px;
   border-radius: 4px;
   font-size: 0.875rem;
-  line-height: 1.4;
+  text-align: center;
 }
 
 .transition {
@@ -93,25 +114,77 @@
 .react:hover {
   color: #306d7e;
 }
+.react-bg:hover{
+  background-color: #306d7e;
+  color: #fff;
+}
 
 .react-native:hover {
   color: #285967;
+}
+.react-native-bg:hover{
+  background-color: #285967;
+  color: #fff;
 }
 
 .python:hover {
   color: #18354d;
 }
+.python-bg:hover{
+  background-color: #18354d;
+  color: #fff;
+}
 
 .php:hover {
   color: #4c4e73;
+}
+.php-bg:hover{
+  background-color: #4c4e73;
+  color: #fff;
 }
 
 .javascript:hover {
   color: #908112;
 }
+.javascript-bg:hover{
+  background-color: #b6a107;
+  color: #fff;
+}
 
 .typescript:hover {
   color: #17395d;
+}
+.typescript-bg:hover{
+  background-color: #17395d;
+  color: #fff;
+}
+
+.mysql:hover {
+  color: #00758f;
+}
+.mysql-bg:hover{
+  background-color: #00758f;
+  color: #fff;
+}
+
+.html-css-bg:hover {
+  background-color: #e34c26;
+  color: #fff;
+}
+
+.laravel-bg:hover {
+  background-color: #ff2d20;
+  color: #fff;
+}
+
+.figma-bg:hover {
+  background-color: #4f008f;
+  color: #fff;
+}
+
+.git-bg:hover {
+  background-color: #141414;
+  color: #fff;
 }
 
 @media (max-width: 800px) {
