@@ -6,15 +6,16 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  gap: 100px;
+  gap: 35px;
 }
 
 .introducao h1 {
   font-size: 4.5rem;
   line-height: 1.125;
-  margin-bottom: 30px;
+  margin-bottom: 17px;
   position: relative;
   width: fit-content;
+  color: #121220;
 }
 
 .introducao h1::before {
@@ -49,6 +50,7 @@
 
 .introducao img {
   border-radius: 50%;
+  margin-left: 20%;
 }
 
 .introducao-texto {
@@ -59,6 +61,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.conan:hover {
+  letter-spacing: 1.5px;
+  color: #42809d;
+}
+
+.conan {
+  transition: all 0.3s;
 }
 
 @media (max-width: 1000px) {
