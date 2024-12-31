@@ -83,6 +83,8 @@
   text-decoration: none;
   padding: 1px 3px;
   border-radius: 4px;
+  background-color: #eaeaea;
+  transition: letter-spacing 0.2s;
 }
 .empresa-texto li:hover a {
   color: #305d72;
@@ -90,6 +92,7 @@
 }
 .empresa-texto li:hover strong, .empresa-texto li:hover a{
   letter-spacing: 1px;
+  transition: letter-spacing 0.2s;
 }
 
 .empresa-habilidades {
@@ -184,6 +187,30 @@
 
 .git-bg:hover {
   background-color: #141414;
+  color: #fff;
+}
+
+.linux-bg:hover {
+  background-color: #9c9c9c;
+  color: #ffffff;
+}
+
+.apache-bg:hover {
+  background-color: #d6171d;
+  color: #fff;
+}
+
+.empresa-titulo{
+  letter-spacing: 1px;
+}
+
+.wordpress-bg:hover {
+  background-color: #21759b;
+  color: #fff;
+}
+
+.hardware-bg:hover {
+  background-color: #4c4e73;
   color: #fff;
 }
 
