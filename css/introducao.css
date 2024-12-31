@@ -1,9 +1,10 @@
 .introducao {
   max-width: 1200px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   padding: 40px 20px;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
   gap: 100px;
 }
@@ -13,6 +14,7 @@
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
+  width: fit-content;
 }
 
 .introducao h1::before {
@@ -31,6 +33,7 @@
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
+  width: fit-content
 }
 
 .html-css {
@@ -42,6 +45,20 @@
 #piada {
   font-size: 1rem;
   font-weight: initial;
+}
+
+.introducao img {
+  border-radius: 50%;
+}
+
+.introducao-texto {
+  width: fit-content;
+}
+
+.introducao-imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1000px) {
