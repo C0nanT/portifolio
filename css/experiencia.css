@@ -20,7 +20,6 @@
   font-size: 1.5rem;
   line-height: 1.33;
   margin-bottom: 60px;
-  max-width: 40ch;
   color: #525252;
 }
 
@@ -85,6 +84,34 @@
   border-radius: 4px;
   font-size: 0.875rem;
   line-height: 1.4;
+}
+
+.transition {
+  transition: all 0.3s;
+}
+
+.react:hover {
+  color: #306d7e;
+}
+
+.react-native:hover {
+  color: #285967;
+}
+
+.python:hover {
+  color: #18354d;
+}
+
+.php:hover {
+  color: #4c4e73;
+}
+
+.javascript:hover {
+  color: #908112;
+}
+
+.typescript:hover {
+  color: #17395d;
 }
 
 @media (max-width: 800px) {
