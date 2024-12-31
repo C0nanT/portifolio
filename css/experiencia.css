@@ -9,10 +9,14 @@
 
 .experiencia .subtitulo {
   background: #0093e9;
-  background: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background: linear-gradient(160deg, #0093e9 0%, #72c7f8 50%);
   background-clip: rgba(0, 0, 0, 0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: all 0.3s;
+}
+.subtitulo:hover{
+  letter-spacing: 1px;
 }
 
 .experiencia-texto {
