@@ -1,5 +1,10 @@
 .projetos {
-  background-color: #003153;
+  /* background-color: #003153; */
+  background: rgb(16,17,30);
+  background: -moz-linear-gradient(0deg, rgba(16,17,30,1) 0%, rgba(0,49,83,1) 50%);
+  background: -webkit-linear-gradient(0deg, rgba(16,17,30,1) 0%, rgba(0,49,83,1) 50%);
+  background: linear-gradient(0deg, rgba(16,17,30,1) 0%, rgba(0,49,83,1) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10111e",endColorstr="#003153",GradientType=1);
   color: #eef9ff;
 }
 
@@ -11,17 +16,6 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   position: relative;
-}
-
-.projetos-container::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 200px;
-  height: 72px;
-  background: url("../img/detalhe.svg") no-repeat center;
-  bottom: -36px;
-  left: 30px;
 }
 
 .projetos .subtitulo {

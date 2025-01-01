@@ -38,3 +38,39 @@ img {
     max-width: initial !important;
   }
 }
+
+.container {
+  position: relative;
+  background: #ffffff;
+  height: 2vh;
+}
+
+.wave {
+  position: absolute;
+  height: 73px;
+  width: 100%;
+  background: #ffffff;
+  bottom: 0;
+}
+
+.wave::before, .wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  background-color: #003153;
+  right: -1.5%;
+  top: 60%;
+}
+.wave::after {
+  width: 55%;
+  height: 100%;
+  background-color: #ffffff;
+  left: -1.5%;
+  top: 40%;
+}

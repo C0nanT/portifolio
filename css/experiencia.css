@@ -212,6 +212,10 @@
 }
 
 .empresa-titulo{
+  transition: letter-spacing 0.2s;
+}
+
+.empresa-titulo:hover{
   letter-spacing: 1px;
 }
 
