@@ -142,7 +142,7 @@
 }
 
 .python:hover {
-  color: #18354d;
+  color: #244e71;
 }
 .python-bg:hover{
   background-color: #18354d;
@@ -239,10 +239,22 @@
   color: #fff;
 }
 
+.sub2{
+  display: none;
+}
+
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  .experiencia .sub1{
+    display: none;
+  }
+
+  .experiencia .sub2{
+    display: block;
   }
 
   .experiencia .subtitulo {
