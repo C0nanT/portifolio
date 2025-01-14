@@ -24,6 +24,11 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  padding: 0px;
+}
+
 .subtitulo {
   font-size: 8rem;
   word-break: break-all;

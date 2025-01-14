@@ -1,0 +1,39 @@
+.nav-buttons {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #10111e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  transition: width 0.3s ease;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-button span{
+  display: none;
+  transition: display 0.8s ease;
+}
+
+.nav-button:hover {
+  background-color: #1e1f2e;
+  width: 180px; 
+}
+
+.nav-button:hover span{
+  display: block;
+}
