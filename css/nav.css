@@ -43,3 +43,13 @@
 .nav-button-dark:hover {
   background-color: #1e1f2e;
 }
+
+.nav-button-light {
+  background-color: #45adfd;
+  color: #fff;
+}
+
+.nav-button-light:hover {
+  background-color: #3495de;
+}
+
