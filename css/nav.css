@@ -10,14 +10,12 @@
 
 .nav-button {
   padding: 10px 20px;
-  background-color: #10111e;
-  color: white;
   border: none;
   cursor: pointer;
   border-radius: 0 5px 5px 0;
   text-align: center;
   transition: width 0.3s ease;
-  width: 40px;
+  width: 30px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -30,10 +28,18 @@
 }
 
 .nav-button:hover {
-  background-color: #1e1f2e;
   width: 140px; 
 }
 
 .nav-button:hover span {
   opacity: 1;
+}
+
+.nav-button-dark {
+  background-color: #10111e;
+  color: #fff;
+}
+
+.nav-button-dark:hover {
+  background-color: #1e1f2e;
 }
