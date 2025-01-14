@@ -72,6 +72,22 @@
   transition: all 0.3s;
 }
 
+.introducao-texto h1 {
+  transition: all 0.3s;
+}
+
+.introducao-texto h1:hover{
+  letter-spacing: 2px;
+}
+
+.introducao-texto p {
+  transition: all 0.3s;
+}
+
+.introducao-texto p:hover {
+  letter-spacing: 0.8px;
+}
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
