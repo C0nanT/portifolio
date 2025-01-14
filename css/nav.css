@@ -19,21 +19,21 @@
   transition: width 0.3s ease;
   width: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   gap: 10px;
 }
 
-.nav-button span{
-  display: none;
-  transition: display 0.8s ease;
+.nav-button span {
+  opacity: 0;
+  transition: opacity 0.8s ease;
 }
 
 .nav-button:hover {
   background-color: #1e1f2e;
-  width: 180px; 
+  width: 140px; 
 }
 
-.nav-button:hover span{
-  display: block;
+.nav-button:hover span {
+  opacity: 1;
 }
