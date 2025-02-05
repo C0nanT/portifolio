@@ -149,6 +149,11 @@
   color: #fff;
 }
 
+.tailwind-bg:hover {
+  background-color: #06b6d4;
+  color: #fff;
+}
+
 .docker-bg{
   background-color: #0db7ed;
 }
