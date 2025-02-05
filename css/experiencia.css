@@ -149,6 +149,15 @@
   color: #fff;
 }
 
+.docker-bg{
+  background-color: #0db7ed;
+}
+
+.docker-bg:hover {
+  background-color: #0a97c2;
+  color: #fff;
+}
+
 .php:hover {
   color: #4c4e73;
 }
