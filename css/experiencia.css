@@ -154,6 +154,11 @@
   color: #fff;
 }
 
+.next-bg:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
 .docker-bg{
   background-color: #0db7ed;
 }
