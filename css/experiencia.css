@@ -1,298 +1,313 @@
 .experiencia {
-  max-width: 1300px;
-  padding: 40px 20px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 100px;
+	max-width: 1300px;
+	padding: 40px 20px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 100px;
 }
 
 .experiencia .subtitulo {
-  background: #0093e9;
-  background: linear-gradient(160deg, #0093e9 0%, #72c7f8 50%);
-  background-clip: rgba(0, 0, 0, 0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s;
+	background: #0093e9;
+	background: linear-gradient(160deg, #0093e9 0%, #72c7f8 50%);
+	background-clip: rgba(0, 0, 0, 0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 0.3s;
 }
-.subtitulo:hover{
-  letter-spacing: 1px;
+.subtitulo:hover {
+	letter-spacing: 1px;
 }
 
 .experiencia-texto {
-  font-size: 1.5rem;
-  line-height: 1.33;
-  margin-bottom: 60px;
-  color: #525252;
+	font-size: 1.5rem;
+	line-height: 1.33;
+	margin-bottom: 60px;
+	color: #525252;
 }
 
 .experiencia-texto strong {
-  color: #141414;
+	color: #141414;
 }
 
 .empresa {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #f5f5f5;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 7px;
-  position: relative;
-  gap: 10px 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #f5f5f5;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 7px;
+	position: relative;
+	gap: 10px 20px;
 }
 
 .empresa::before {
-  content: "";
-  display: block;
-  width: 4px;
-  height: 20px;
-  background: linear-gradient(#6dd8ff, #b2e8ff);
-  position: absolute;
-  top: 20px;
-  left: -4px;
+	content: "";
+	display: block;
+	width: 4px;
+	height: 20px;
+	background: linear-gradient(#6dd8ff, #b2e8ff);
+	position: absolute;
+	top: 20px;
+	left: -4px;
 }
 
 .empresa-ano {
-  position: absolute;
-  top: 22px;
-  left: -85px;
-  color: #525252;
-  font-size: 0.875rem;
-  transition: letter-spacing 0.2s, left 0.2s;
+	position: absolute;
+	top: 22px;
+	left: -85px;
+	color: #525252;
+	font-size: 0.875rem;
+	transition: letter-spacing 0.2s, left 0.2s;
 }
 
 .empresa-ano:hover {
-  letter-spacing: 1px;
-  left: calc(-85px - 10px);
+	letter-spacing: 1px;
+	left: calc(-85px - 10px);
 }
 
 .empresta-titulo {
-  font-size: 1.125rem;
-  line-height: 1.1;
-  font-weight: bold;
+	font-size: 1.125rem;
+	line-height: 1.1;
+	font-weight: bold;
 }
 
 .empresa-texto {
-  font-size: 0.875rem;
-  line-height: 1.4;
-  color: #525252;
+	font-size: 0.875rem;
+	line-height: 1.4;
+	color: #525252;
 }
-.empresa-texto li{
-  list-style: outside;
-  padding: 4px 6px;
-  border-radius: 6px;
+.empresa-texto li {
+	list-style: outside;
+	padding: 4px 6px;
+	border-radius: 6px;
 }
-.empresa-texto li:hover{
-  background-color: #42809d;
-  color: #ffffff;
+.empresa-texto li:hover {
+	background-color: #42809d;
+	color: #ffffff;
 }
-.empresa-texto li a{
-  color: #42809d;
-  background-color: #eaeaea;
-  text-decoration: none;
-  padding: 1px 3px;
-  border-radius: 4px;
-  transition: letter-spacing 0.2s;
+.empresa-texto li a {
+	color: #42809d;
+	background-color: #eaeaea;
+	text-decoration: none;
+	padding: 1px 3px;
+	border-radius: 4px;
+	transition: letter-spacing 0.2s;
 }
 .empresa-texto li:hover a {
-  color: #305d72;
-  background-color: #fff;
+	color: #305d72;
+	background-color: #fff;
 }
-.empresa-texto li strong, .empresa-texto li a{
-  transition: letter-spacing 0.2s;
+.empresa-texto li strong,
+.empresa-texto li a {
+	transition: letter-spacing 0.2s;
 }
 
-.empresa-texto li:hover strong, .empresa-texto li:hover a{
-  letter-spacing: 1px;
+.empresa-texto li:hover strong,
+.empresa-texto li:hover a {
+	letter-spacing: 1px;
 }
 
 .empresa-habilidades {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-content: start;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	align-content: start;
 }
 
 .empresa-habilidades li {
-  background-color: #ffff;
-  padding: 5px 10px;
-  border-radius: 4px;
-  font-size: 0.875rem;
-  text-align: center;
+	background-color: #ffff;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-size: 0.875rem;
+	text-align: center;
 }
 
 .transition {
-  transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .react:hover {
-  color: #306d7e;
+	color: #306d7e;
 }
-.react-bg:hover{
-  background-color: #306d7e;
-  color: #fff;
+.react-bg:hover {
+	background-color: #306d7e;
+	color: #fff;
 }
 
 .react-native:hover {
-  color: #285967;
+	color: #285967;
 }
-.react-native-bg:hover{
-  background-color: #285967;
-  color: #fff;
+.react-native-bg:hover {
+	background-color: #285967;
+	color: #fff;
 }
 
 .python:hover {
-  color: #244e71;
+	color: #244e71;
 }
-.python-bg:hover{
-  background-color: #18354d;
-  color: #fff;
+.python-bg:hover {
+	background-color: #18354d;
+	color: #fff;
 }
 
 .tailwind-bg:hover {
-  background-color: #06b6d4;
-  color: #fff;
+	background-color: #06b6d4;
+	color: #fff;
 }
 
 .next-bg:hover {
-  background-color: #000000;
-  color: #fff;
+	background-color: #000000;
+	color: #fff;
 }
 
-.docker-bg{
-  background-color: #0db7ed;
+.docker-bg {
+	background-color: #0db7ed;
 }
 
 .docker-bg:hover {
-  background-color: #0a97c2;
-  color: #fff;
+	background-color: #0a97c2;
+	color: #fff;
 }
 
 .php:hover {
-  color: #4c4e73;
+	color: #4c4e73;
 }
-.php-bg:hover{
-  background-color: #4c4e73;
-  color: #fff;
+.php-bg:hover {
+	background-color: #4c4e73;
+	color: #fff;
 }
 
 .javascript:hover {
-  color: #908112;
+	color: #908112;
 }
-.javascript-bg:hover{
-  background-color: #b6a107;
-  color: #fff;
+.javascript-bg:hover {
+	background-color: #b6a107;
+	color: #fff;
 }
 
 .typescript:hover {
-  color: #17395d;
+	color: #17395d;
 }
-.typescript-bg:hover{
-  background-color: #17395d;
-  color: #fff;
+.typescript-bg:hover {
+	background-color: #17395d;
+	color: #fff;
 }
 
 .mysql:hover {
-  color: #00758f;
+	color: #00758f;
 }
-.mysql-bg:hover{
-  background-color: #00758f;
-  color: #fff;
+
+.laravel:hover {
+	color: #ff2d20;
+}
+
+.next:hover {
+	color: #000000;
+}
+
+.fullstack:hover {
+	color: #0a58ad;
+}
+
+.mysql-bg:hover {
+	background-color: #00758f;
+	color: #fff;
 }
 
 .html-css-bg:hover {
-  background-color: #e34c26;
-  color: #fff;
+	background-color: #e34c26;
+	color: #fff;
 }
 
 .laravel-bg:hover {
-  background-color: #ff2d20;
-  color: #fff;
+	background-color: #ff2d20;
+	color: #fff;
 }
 
 .figma-bg:hover {
-  background-color: #4f008f;
-  color: #fff;
+	background-color: #4f008f;
+	color: #fff;
 }
 
 .git-bg:hover {
-  background-color: #141414;
-  color: #fff;
+	background-color: #141414;
+	color: #fff;
 }
 
 .linux-bg:hover {
-  background-color: #9c9c9c;
-  color: #ffffff;
+	background-color: #9c9c9c;
+	color: #ffffff;
 }
 
 .apache-bg:hover {
-  background-color: #d6171d;
-  color: #fff;
+	background-color: #d6171d;
+	color: #fff;
 }
 
-.empresa-titulo{
-  transition: letter-spacing 0.2s;
+.empresa-titulo {
+	transition: letter-spacing 0.2s;
 }
 
-.empresa-titulo:hover{
-  letter-spacing: 1px;
+.empresa-titulo:hover {
+	letter-spacing: 1px;
 }
 
 .wordpress-bg:hover {
-  background-color: #21759b;
-  color: #fff;
+	background-color: #21759b;
+	color: #fff;
 }
 
 .hardware-bg:hover {
-  background-color: #4c4e73;
-  color: #fff;
+	background-color: #4c4e73;
+	color: #fff;
 }
 
 .blade-bg:hover {
-  background-color: #f4645f;
-  color: #fff;
+	background-color: #f4645f;
+	color: #fff;
 }
 
 .bootstrap-bg:hover {
-  background-color: #7952b3;
-  color: #fff;
+	background-color: #7952b3;
+	color: #fff;
 }
 
-.sub2{
-  display: none;
+.sub2 {
+	display: none;
 }
 
 @media (max-width: 800px) {
-  .experiencia {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
+	.experiencia {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
 
-  .experiencia .sub1{
-    display: none;
-  }
+	.experiencia .sub1 {
+		display: none;
+	}
 
-  .experiencia .sub2{
-    display: block;
-  }
+	.experiencia .sub2 {
+		display: block;
+	}
 
-  .experiencia .subtitulo {
-    color: #141414;
-  }
+	.experiencia .subtitulo {
+		color: #141414;
+	}
 
-  .experiencia-texto {
-    font-size: 1.25rem;
-  }
-  .empresa-ano {
-    position: initial;
-    order: 1;
-    width: initial;
-    text-align: left;
-  }
+	.experiencia-texto {
+		font-size: 1.25rem;
+	}
+	.empresa-ano {
+		position: initial;
+		order: 1;
+		width: initial;
+		text-align: left;
+	}
 }
 
 @media (max-width: 400px) {
-  .empresa {
-    grid-template-columns: 1fr;
-  }
+	.empresa {
+		grid-template-columns: 1fr;
+	}
 }
