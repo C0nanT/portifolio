@@ -1,3 +1,3 @@
-# Projeto Portifolio_01
+# Portifolio
 
-<p>Acesse ele: https://c0nant.github.io/portifolio01/</p>
+<p>Acesse ele: https://c0nant.github.io/portifolio/</p>
