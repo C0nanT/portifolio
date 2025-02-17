@@ -186,6 +186,15 @@
 	color: #fff;
 }
 
+.jquery:hover {
+	color: #07aecb;
+}
+
+.jquery-bg:hover {
+	background-color: #0769ad;
+	color: #fff;
+}
+
 .typescript:hover {
 	color: #17395d;
 }
