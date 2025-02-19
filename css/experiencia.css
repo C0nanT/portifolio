@@ -286,46 +286,6 @@
 	display: none;
 }
 
-/* CHATBOT */
-.empresa:has(.chatbot:hover) .php-bg {
-	background-color: #4c4e73;
-	color: #fff; 
-}
-
-.empresa:has(.chatbot:hover) .typescript-bg {
-	background-color: #17395d;
-	color: #fff; 
-}
-
-.empresa:has(.chatbot:hover) .mysql-bg {
-	background-color: #00758f;
-	color: #fff; 
-}
-
-.empresa:has(.chatbot:hover) .laravel-bg {
-	background-color: #ff2d20;
-	color: #fff; 
-}
-
-.empresa:has(.chatbot:hover) .react-bg {
-	background-color: #306d7e;
-	color: #fff; 
-}
-
-.empresa:has(.chatbot:hover) .next-bg {
-	background-color: #000000;
-	color: #fff; 
-}
-
-.empresa:has(.chatbot:hover) .python-bg  {
-	background-color: #18354d;
-	color: #fff; 
-}
-
-.empresa:has(.chatbot:hover) .git-bg {
-	background-color: #141414;
-	color: #fff; 
-}
 
 @media (max-width: 800px) {
 	.experiencia {
