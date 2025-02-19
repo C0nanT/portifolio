@@ -60,135 +60,83 @@ function adjustNavDisplay() {
 	}
 }
 
-function showTecChatbot() {
-    const elements = {
-        empresa: document.querySelector('.empresa'),
-        chatbot: document.querySelector('.chatbot'),
-        php: document.querySelector('.php-bg'),
-        typescript: document.querySelector('.typescript-bg'),
-        mysql: document.querySelector('.mysql-bg'),
-        laravel: document.querySelector('.laravel-bg'),
-        react: document.querySelector('.react-bg'),
-        next: document.querySelector('.next-bg'),
-        python: document.querySelector('.python-bg'),
-        git: document.querySelector('.git-bg'),
-        allBgElements: document.querySelectorAll('.empresa-sistemapet [class$="-bg"]')
-    };
+function aplicarEfeitoHover(ativadorSelector, classesAlvoSelectors, estilosHover, estiloPadrao) {
+    const ativador = document.querySelector(ativadorSelector);
+    const classesAlvo = classesAlvoSelectors.map(selector => document.querySelector(selector));
+    const todosBgElements = document.querySelectorAll('.empresa-sistemapet [class$="-bg"]');
 
-    const hoverStyles = {
-        backgroundColor: '#f5f5f5',
-        php: { backgroundColor: '#4c4e73', color: '#fff' },
-        typescript: { backgroundColor: '#17395d', color: '#fff' },
-        mysql: { backgroundColor: '#00758f', color: '#fff' },
-        laravel: { backgroundColor: '#ff2d20', color: '#fff' },
-        react: { backgroundColor: '#306d7e', color: '#fff' },
-        next: { backgroundColor: '#000000', color: '#fff' },
-        python: { backgroundColor: '#18354d', color: '#fff' },
-        git: { backgroundColor: '#141414', color: '#fff' }
-    };
-
-    const defaultStyles = {
-        backgroundColor: '#fff',
-        color: '#000'
-    };
-
-    elements.allBgElements.forEach(el => {
+    todosBgElements.forEach(el => {
         el.dataset.originalDisplay = window.getComputedStyle(el).display;
     });
 
-    function applyStyles(element, styles) {
-        Object.assign(element.style, styles);
+    function aplicarEstilos(elemento, estilos) {
+        Object.assign(elemento.style, estilos);
     }
 
-    elements.chatbot.addEventListener('mouseover', () => {
-        applyStyles(elements.empresa, { backgroundColor: hoverStyles.backgroundColor });
-        
-      
-        
-        Object.keys(hoverStyles).forEach(key => {
-            if (key !== 'backgroundColor' && key !== 'color' && elements[key]) {
-                applyStyles(elements[key], hoverStyles[key]);
-                elements[key].style.display = elements[key].dataset.originalDisplay;
+    ativador.addEventListener('mouseover', () => {
+        aplicarEstilos(document.querySelector('.empresa'), { backgroundColor: estilosHover.backgroundColor });
+
+        classesAlvo.forEach((elemento, index) => {
+            if (elemento) {
+                aplicarEstilos(elemento, estilosHover[Object.keys(estilosHover)[index + 1]]);
+                elemento.style.display = elemento.dataset.originalDisplay;
             }
         });
     });
 
-    elements.chatbot.addEventListener('mouseout', () => {
-        applyStyles(elements.empresa, { backgroundColor: defaultStyles.backgroundColor });
-        
-        elements.allBgElements.forEach(el => {
-            applyStyles(el, defaultStyles);
+    ativador.addEventListener('mouseout', () => {
+        aplicarEstilos(document.querySelector('.empresa'), { backgroundColor: estiloPadrao.backgroundColor });
+
+        todosBgElements.forEach(el => {
+            aplicarEstilos(el, estiloPadrao);
             el.style.display = el.dataset.originalDisplay;
         });
     });
 }
 
-function showTecAppMobile() {
-    const elements = {
-        empresa: document.querySelector('.empresa'),
-        criadores: document.querySelector('.sistemapet-criadores'),
-        php: document.querySelector('.php-bg'),
-        mysql: document.querySelector('.mysql-bg'),
-        laravel: document.querySelector('.laravel-bg'),
-        reactnative: document.querySelector('.react-native-bg'),
-        git: document.querySelector('.git-bg'),
-		typescript: document.querySelector('.typescript-bg'),
-		figma: document.querySelector('.figma-bg'),
-		apache: document.querySelector('.apache-bg'),
+const estilosHoverChatbot = {
+    backgroundColor: '#f5f5f5',
+    php: { backgroundColor: '#4c4e73', color: '#fff' },
+    typescript: { backgroundColor: '#17395d', color: '#fff' },
+    mysql: { backgroundColor: '#00758f', color: '#fff' },
+    laravel: { backgroundColor: '#ff2d20', color: '#fff' },
+    react: { backgroundColor: '#306d7e', color: '#fff' },
+    next: { backgroundColor: '#000000', color: '#fff' },
+    python: { backgroundColor: '#18354d', color: '#fff' },
+    git: { backgroundColor: '#141414', color: '#fff' }
+};
 
-        allBgElements: document.querySelectorAll('.empresa-sistemapet [class$="-bg"]')
-    };
+const estilosHoverAppMobile = {
+    backgroundColor: '#f5f5f5',
+    php: { backgroundColor: '#4c4e73', color: '#fff' },
+    mysql: { backgroundColor: '#00758f', color: '#fff' },
+    laravel: { backgroundColor: '#ff2d20', color: '#fff' },
+    reactnative: { backgroundColor: '#306d7e', color: '#fff' },
+    git: { backgroundColor: '#141414', color: '#fff' },
+    typescript: { backgroundColor: '#17395d', color: '#fff' },
+    figma: { backgroundColor: '#f24e1e', color: '#fff' },
+    apache: { backgroundColor: '#cc3333', color: '#fff' }
+};
 
-    const hoverStyles = {
-        backgroundColor: '#f5f5f5',
-        php: { backgroundColor: '#4c4e73', color: '#fff' },
-        mysql: { backgroundColor: '#00758f', color: '#fff' },
-        laravel: { backgroundColor: '#ff2d20', color: '#fff' },
-        reactnative: { backgroundColor: '#306d7e', color: '#fff' },
-        git: { backgroundColor: '#141414', color: '#fff' },
-        typescript: { backgroundColor: '#17395d', color: '#fff' },
-		figma: { backgroundColor: '#f24e1e', color: '#fff' },
-		apache: { backgroundColor: '#cc3333', color: '#fff' }
-    };
+const estiloPadrao = {
+    backgroundColor: '#fff',
+    color: '#000'
+};
 
-    const defaultStyles = {
-        backgroundColor: '#fff',
-        color: '#000'
-    };
+aplicarEfeitoHover(
+    '.chatbot',
+    ['.php-bg', '.typescript-bg', '.mysql-bg', '.laravel-bg', '.react-bg', '.next-bg', '.python-bg', '.git-bg'],
+    estilosHoverChatbot,
+    estiloPadrao
+);
 
-    elements.allBgElements.forEach(el => {
-        el.dataset.originalDisplay = window.getComputedStyle(el).display;
-    });
+aplicarEfeitoHover(
+    '.sistemapet-criadores',
+    ['.php-bg', '.mysql-bg', '.laravel-bg', '.react-native-bg', '.git-bg', '.typescript-bg', '.figma-bg', '.apache-bg'],
+    estilosHoverAppMobile,
+    estiloPadrao
+);
 
-    function applyStyles(element, styles) {
-        Object.assign(element.style, styles);
-    }
-
-    elements.criadores.addEventListener('mouseover', () => {
-        applyStyles(elements.empresa, { backgroundColor: hoverStyles.backgroundColor });
-        
-      
-        
-        Object.keys(hoverStyles).forEach(key => {
-            if (key !== 'backgroundColor' && key !== 'color' && elements[key]) {
-                applyStyles(elements[key], hoverStyles[key]);
-                elements[key].style.display = elements[key].dataset.originalDisplay;
-            }
-        });
-    });
-
-    elements.criadores.addEventListener('mouseout', () => {
-        applyStyles(elements.empresa, { backgroundColor: defaultStyles.backgroundColor });
-        
-        elements.allBgElements.forEach(el => {
-            applyStyles(el, defaultStyles);
-            el.style.display = el.dataset.originalDisplay;
-        });
-    });
-}
-
-showTecChatbot();
-showTecAppMobile();
 
 document.addEventListener("DOMContentLoaded", adjustNavDisplay);
 window.addEventListener("resize", adjustNavDisplay);
