@@ -250,6 +250,8 @@ const estilosHoverManutencao = {
 	react: { backgroundColor: "#306d7e", color: "#fff" },
 	docker: { backgroundColor: "#0db7ed", color: "#fff" },
 	linux: { backgroundColor: "#000000", color: "#fff" },
+	composer: { backgroundColor: "#885630", color: "#fff" },
+	pest: { backgroundColor: "#f675b5", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".manutencao",
@@ -273,8 +275,24 @@ aplicarEfeitoHover(
 		".react-bg",
 		".docker-bg",
 		".linux-bg",
+		".composer-bg",
+		".pest-bg",
 	],
 	estilosHoverManutencao,
+	estiloPadrao
+);
+
+const estilosHoverTestes = {
+	backgroundColor: "#f5f5f5",
+	php: { backgroundColor: "#4c4e73", color: "#fff" },
+	git: { backgroundColor: "#141414", color: "#fff" },
+	composer: { backgroundColor: "#885630", color: "#fff" },
+	pest: { backgroundColor: "#f675b5", color: "#fff" },
+};
+aplicarEfeitoHover(
+	".testes",
+	[".php-bg", ".git-bg", ".composer-bg", ".pest-bg"],
+	estilosHoverTestes,
 	estiloPadrao
 );
 
