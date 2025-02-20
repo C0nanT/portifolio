@@ -110,6 +110,12 @@ function aplicarEfeitoHover(
 	});
 }
 
+
+const estiloPadrao = {
+	backgroundColor: "#fff",
+	color: "#000",
+};
+
 const estilosHoverChatbot = {
 	backgroundColor: "#f5f5f5",
 	php: { backgroundColor: "#4c4e73", color: "#fff" },
@@ -121,24 +127,6 @@ const estilosHoverChatbot = {
 	python: { backgroundColor: "#18354d", color: "#fff" },
 	git: { backgroundColor: "#141414", color: "#fff" },
 };
-
-const estilosHoverAppMobile = {
-	backgroundColor: "#f5f5f5",
-	php: { backgroundColor: "#4c4e73", color: "#fff" },
-	mysql: { backgroundColor: "#00758f", color: "#fff" },
-	laravel: { backgroundColor: "#ff2d20", color: "#fff" },
-	reactnative: { backgroundColor: "#306d7e", color: "#fff" },
-	git: { backgroundColor: "#141414", color: "#fff" },
-	typescript: { backgroundColor: "#17395d", color: "#fff" },
-	figma: { backgroundColor: "#f24e1e", color: "#fff" },
-	apache: { backgroundColor: "#cc3333", color: "#fff" },
-};
-
-const estiloPadrao = {
-	backgroundColor: "#fff",
-	color: "#000",
-};
-
 aplicarEfeitoHover(
 	".chatbot",
 	[
@@ -155,6 +143,17 @@ aplicarEfeitoHover(
 	estiloPadrao
 );
 
+const estilosHoverAppMobile = {
+	backgroundColor: "#f5f5f5",
+	php: { backgroundColor: "#4c4e73", color: "#fff" },
+	mysql: { backgroundColor: "#00758f", color: "#fff" },
+	laravel: { backgroundColor: "#ff2d20", color: "#fff" },
+	reactnative: { backgroundColor: "#306d7e", color: "#fff" },
+	git: { backgroundColor: "#141414", color: "#fff" },
+	typescript: { backgroundColor: "#17395d", color: "#fff" },
+	figma: { backgroundColor: "#f24e1e", color: "#fff" },
+	apache: { backgroundColor: "#cc3333", color: "#fff" },
+};
 aplicarEfeitoHover(
 	".sistemapet-criadores",
 	[
@@ -168,6 +167,115 @@ aplicarEfeitoHover(
 		".apache-bg",
 	],
 	estilosHoverAppMobile,
+	estiloPadrao
+);
+
+const estilosHoverIntegracao = {
+	backgroundColor: "#f5f5f5",
+	php: { backgroundColor: "#4c4e73", color: "#fff" },
+	mysql: { backgroundColor: "#00758f", color: "#fff" },
+	javascript: { backgroundColor: "#ceba33", color: "#fff" },
+	jquery: { backgroundColor: "#0769ad", color: "#fff" },
+	python: { backgroundColor: "#18354d", color: "#fff" },
+	bootstrap: { backgroundColor: "#7952b3", color: "#fff" },
+	htmlcss: { backgroundColor: "#e44d26", color: "#fff" },
+	git: { backgroundColor: "#141414", color: "#fff" },
+};
+aplicarEfeitoHover(
+	".integracao",
+	[
+		".php-bg",
+		".mysql-bg",
+		".javascript-bg",
+		".jquery-bg",
+		".python-bg",
+		".bootstrap-bg",
+		".html-css-bg",
+		".git-bg",
+	],
+	estilosHoverIntegracao,
+	estiloPadrao
+);
+
+const estilosHoverApoio = {
+	backgroundColor: "#f5f5f5",
+	php: { backgroundColor: "#4c4e73", color: "#fff" },
+	mysql: { backgroundColor: "#00758f", color: "#fff" },
+	javascript: { backgroundColor: "#ceba33", color: "#fff" },
+	jquery: { backgroundColor: "#0769ad", color: "#fff" },
+	bootstrap: { backgroundColor: "#7952b3", color: "#fff" },
+	htmlcss: { backgroundColor: "#e44d26", color: "#fff" },
+	git: { backgroundColor: "#141414", color: "#fff" },
+	laravel: { backgroundColor: "#ff2d20", color: "#fff" },
+	figma: { backgroundColor: "#f24e1e", color: "#fff" },
+	apache: { backgroundColor: "#cc3333", color: "#fff" },
+	tailwind: { backgroundColor: "#06b6d4", color: "#fff" },
+};
+aplicarEfeitoHover(
+	".apoio",
+	[
+		".php-bg",
+		".mysql-bg",
+		".javascript-bg",
+		".jquery-bg",
+		".bootstrap-bg",
+		".html-css-bg",
+		".git-bg",
+		".laravel-bg",
+		".figma-bg",
+		".apache-bg",
+		".tailwind-bg",
+	],
+	estilosHoverApoio,
+	estiloPadrao
+);
+
+const estilosHoverManutencao = {
+	backgroundColor: "#f5f5f5",
+	php: { backgroundColor: "#4c4e73", color: "#fff" },
+	mysql: { backgroundColor: "#00758f", color: "#fff" },
+	javascript: { backgroundColor: "#ceba33", color: "#fff" },
+	jquery: { backgroundColor: "#0769ad", color: "#fff" },
+	bootstrap: { backgroundColor: "#7952b3", color: "#fff" },
+	htmlcss: { backgroundColor: "#e44d26", color: "#fff" },
+	git: { backgroundColor: "#141414", color: "#fff" },
+	laravel: { backgroundColor: "#ff2d20", color: "#fff" },
+	figma: { backgroundColor: "#f24e1e", color: "#fff" },
+	apache: { backgroundColor: "#cc3333", color: "#fff" },
+	tailwind: { backgroundColor: "#06b6d4", color: "#fff" },
+	blade: { backgroundColor: "#f7523f", color: "#fff" },
+	typescript: { backgroundColor: "#17395d", color: "#fff" },
+	next: { backgroundColor: "#000000", color: "#fff" },
+	python: { backgroundColor: "#18354d", color: "#fff" },
+	reactnative: { backgroundColor: "#306d7e", color: "#fff" },
+	react: { backgroundColor: "#306d7e", color: "#fff" },
+	docker: { backgroundColor: "#0db7ed", color: "#fff" },
+	linux: { backgroundColor: "#000000", color: "#fff" },
+};
+aplicarEfeitoHover(
+	".manutencao",
+	[
+		".php-bg",
+		".mysql-bg",
+		".javascript-bg",
+		".jquery-bg",
+		".bootstrap-bg",
+		".html-css-bg",
+		".git-bg",
+		".laravel-bg",
+		".figma-bg",
+		".apache-bg",
+		".tailwind-bg",
+		".blade-bg",
+		".typescript-bg",
+		".next-bg",
+		".python-bg",
+		".react-native-bg",
+		".react-bg",
+		".docker-bg",
+		".linux-bg",
+	],
+	estilosHoverManutencao,
 	estiloPadrao
 );
 
