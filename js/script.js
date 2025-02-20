@@ -110,7 +110,6 @@ function aplicarEfeitoHover(
 	});
 }
 
-
 const estiloPadrao = {
 	backgroundColor: "#fff",
 	color: "#000",
