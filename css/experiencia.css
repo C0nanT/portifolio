@@ -130,78 +130,46 @@
 .react:hover {
 	color: #306d7e;
 }
-.react-bg:hover {
-	background-color: #306d7e;
-	color: #fff;
-}
 
 .react-native:hover {
 	color: #285967;
 }
-.react-native-bg:hover {
-	background-color: #285967;
-	color: #fff;
-}
+
 
 .python:hover {
 	color: #244e71;
 }
-.python-bg:hover {
-	background-color: #18354d;
-	color: #fff;
-}
 
-.tailwind-bg:hover {
-	background-color: #06b6d4;
-	color: #fff;
-}
 
-.next-bg:hover {
-	background-color: #000000;
-	color: #fff;
-}
+
+
 
 .docker-bg {
 	background-color: #0db7ed;
 }
 
-.docker-bg:hover {
-	background-color: #0a97c2;
-	color: #fff;
-}
+
 
 .php:hover {
 	color: #4c4e73;
 }
-.php-bg:hover {
-	background-color: #4c4e73;
-	color: #fff;
-}
+
 
 .javascript:hover {
 	color: #908112;
 }
-.javascript-bg:hover {
-	background-color: #b6a107;
-	color: #fff;
-}
+
 
 .jquery:hover {
 	color: #07aecb;
 }
 
-.jquery-bg:hover {
-	background-color: #0769ad;
-	color: #fff;
-}
+
 
 .typescript:hover {
 	color: #17395d;
 }
-.typescript-bg:hover {
-	background-color: #17395d;
-	color: #fff;
-}
+
 
 .mysql:hover {
 	color: #00758f;
@@ -219,40 +187,11 @@
 	color: #0a58ad;
 }
 
-.mysql-bg:hover {
-	background-color: #00758f;
-	color: #fff;
-}
 
-.html-css-bg:hover {
-	background-color: #e34c26;
-	color: #fff;
-}
 
-.laravel-bg:hover {
-	background-color: #ff2d20;
-	color: #fff;
-}
 
-.figma-bg:hover {
-	background-color: #4f008f;
-	color: #fff;
-}
 
-.git-bg:hover {
-	background-color: #141414;
-	color: #fff;
-}
 
-.linux-bg:hover {
-	background-color: #9c9c9c;
-	color: #ffffff;
-}
-
-.apache-bg:hover {
-	background-color: #d6171d;
-	color: #fff;
-}
 
 .empresa-titulo {
 	transition: letter-spacing 0.2s;
@@ -262,25 +201,9 @@
 	letter-spacing: 1px;
 }
 
-.wordpress-bg:hover {
-	background-color: #21759b;
-	color: #fff;
-}
 
-.hardware-bg:hover {
-	background-color: #4c4e73;
-	color: #fff;
-}
 
-.blade-bg:hover {
-	background-color: #f4645f;
-	color: #fff;
-}
 
-.bootstrap-bg:hover {
-	background-color: #7952b3;
-	color: #fff;
-}
 
 .sub2 {
 	display: none;

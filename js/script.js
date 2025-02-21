@@ -71,7 +71,7 @@ function aplicarEfeitoHover(
 		document.querySelector(selector)
 	);
 	const todosBgElements = document.querySelectorAll(
-		'.empresa-sistemapet [class$="-bg"]'
+		'.empresa-sistemapet [class$="-bg"], .empresa-colegio [class$="-bg-cst"]'
 	);
 
 	todosBgElements.forEach((el) => {
@@ -295,6 +295,41 @@ aplicarEfeitoHover(
 	estilosHoverTestes,
 	estiloPadrao
 );
+
+const estilosHoverSuportePython = {
+	backgroundColor: "#f5f5f5",
+	python: { backgroundColor: "#18354d", color: "#fff" },
+};
+aplicarEfeitoHover(
+	".suporte-python",
+	[".python-bg-cst"],
+	estilosHoverSuportePython,
+	estiloPadrao
+);
+
+const estilosHoverAjustesSite = {
+	backgroundColor: "#f5f5f5",
+	wordpress: { backgroundColor: "#21759b", color: "#fff" },
+};
+aplicarEfeitoHover(
+	".ajustes-site",
+	[".wordpress-bg-cst"],
+	estilosHoverAjustesSite,
+	estiloPadrao
+);
+
+const estilosHoverSuporte = {
+	"background-color": "#f5f5f5",
+	suporte: { "background-color": "#20219b", color: "#fff" },
+	hardware: { "background-color": "#034361", color: "#fff" },
+};
+aplicarEfeitoHover(
+	".manutencao-computadores",
+	[".suporte-bg-cst", ".hardware-bg-cst"],
+	estilosHoverSuporte,
+	estiloPadrao
+);
+
 
 document.addEventListener("DOMContentLoaded", adjustNavDisplay);
 window.addEventListener("resize", adjustNavDisplay);
