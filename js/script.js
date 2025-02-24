@@ -252,6 +252,7 @@ const estilosHoverManutencao = {
 	linux: { backgroundColor: "#000000", color: "#fff" },
 	composer: { backgroundColor: "#885630", color: "#fff" },
 	pest: { backgroundColor: "#f675b5", color: "#fff" },
+	phpstan: { backgroundColor: "#3c1ac4", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".manutencao",
@@ -277,6 +278,7 @@ aplicarEfeitoHover(
 		".linux-bg",
 		".composer-bg",
 		".pest-bg",
+		".phpstan-bg",
 	],
 	estilosHoverManutencao,
 	estiloPadrao
@@ -288,10 +290,11 @@ const estilosHoverTestes = {
 	git: { backgroundColor: "#141414", color: "#fff" },
 	composer: { backgroundColor: "#885630", color: "#fff" },
 	pest: { backgroundColor: "#f675b5", color: "#fff" },
+	phpstan: { backgroundColor: "#3c1ac4", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".testes",
-	[".php-bg", ".git-bg", ".composer-bg", ".pest-bg"],
+	[".php-bg", ".git-bg", ".composer-bg", ".pest-bg", ".phpstan-bg"],
 	estilosHoverTestes,
 	estiloPadrao
 );
