@@ -125,6 +125,7 @@ const estilosHoverChatbot = {
 	next: { backgroundColor: "#000000", color: "#fff" },
 	python: { backgroundColor: "#18354d", color: "#fff" },
 	git: { backgroundColor: "#141414", color: "#fff" },
+	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".chatbot",
@@ -137,6 +138,7 @@ aplicarEfeitoHover(
 		".next-bg",
 		".python-bg",
 		".git-bg",
+		".api-rest-bg",
 	],
 	estilosHoverChatbot,
 	estiloPadrao
@@ -152,6 +154,7 @@ const estilosHoverAppMobile = {
 	typescript: { backgroundColor: "#17395d", color: "#fff" },
 	figma: { backgroundColor: "#f24e1e", color: "#fff" },
 	apache: { backgroundColor: "#cc3333", color: "#fff" },
+	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".sistemapet-criadores",
@@ -164,6 +167,7 @@ aplicarEfeitoHover(
 		".typescript-bg",
 		".figma-bg",
 		".apache-bg",
+		".api-rest-bg",
 	],
 	estilosHoverAppMobile,
 	estiloPadrao
@@ -179,6 +183,7 @@ const estilosHoverIntegracao = {
 	bootstrap: { backgroundColor: "#7952b3", color: "#fff" },
 	htmlcss: { backgroundColor: "#e44d26", color: "#fff" },
 	git: { backgroundColor: "#141414", color: "#fff" },
+	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".integracao",
@@ -191,6 +196,7 @@ aplicarEfeitoHover(
 		".bootstrap-bg",
 		".html-css-bg",
 		".git-bg",
+		".api-rest-bg",
 	],
 	estilosHoverIntegracao,
 	estiloPadrao
@@ -209,6 +215,7 @@ const estilosHoverApoio = {
 	figma: { backgroundColor: "#f24e1e", color: "#fff" },
 	apache: { backgroundColor: "#cc3333", color: "#fff" },
 	tailwind: { backgroundColor: "#06b6d4", color: "#fff" },
+	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".apoio",
@@ -224,6 +231,7 @@ aplicarEfeitoHover(
 		".figma-bg",
 		".apache-bg",
 		".tailwind-bg",
+		".api-rest-bg",
 	],
 	estilosHoverApoio,
 	estiloPadrao
@@ -253,6 +261,7 @@ const estilosHoverManutencao = {
 	composer: { backgroundColor: "#885630", color: "#fff" },
 	pest: { backgroundColor: "#f675b5", color: "#fff" },
 	phpstan: { backgroundColor: "#3c1ac4", color: "#fff" },
+	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".manutencao",
@@ -279,6 +288,7 @@ aplicarEfeitoHover(
 		".composer-bg",
 		".pest-bg",
 		".phpstan-bg",
+		".api-rest-bg",
 	],
 	estilosHoverManutencao,
 	estiloPadrao
