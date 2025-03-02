@@ -262,6 +262,7 @@ const estilosHoverManutencao = {
 	pest: { backgroundColor: "#f675b5", color: "#fff" },
 	phpstan: { backgroundColor: "#3c1ac4", color: "#fff" },
 	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
+	postgresql: { backgroundColor: "#336791", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".manutencao",
@@ -289,6 +290,7 @@ aplicarEfeitoHover(
 		".pest-bg",
 		".phpstan-bg",
 		".api-rest-bg",
+		".postgresql-bg",
 	],
 	estilosHoverManutencao,
 	estiloPadrao
