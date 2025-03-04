@@ -154,6 +154,7 @@ const estilosHoverAppMobile = {
 	typescript: { backgroundColor: "#17395d", color: "#fff" },
 	figma: { backgroundColor: "#f24e1e", color: "#fff" },
 	apache: { backgroundColor: "#cc3333", color: "#fff" },
+	expo: { backgroundColor: "#000000", color: "#fff" },
 	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 };
 aplicarEfeitoHover(
@@ -163,6 +164,7 @@ aplicarEfeitoHover(
 		".mysql-bg",
 		".laravel-bg",
 		".react-native-bg",
+		".expo-bg",
 		".git-bg",
 		".typescript-bg",
 		".figma-bg",
@@ -263,6 +265,7 @@ const estilosHoverManutencao = {
 	phpstan: { backgroundColor: "#3c1ac4", color: "#fff" },
 	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 	postgresql: { backgroundColor: "#336791", color: "#fff" },
+	expo: { backgroundColor: "#000000", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".manutencao",
@@ -283,6 +286,7 @@ aplicarEfeitoHover(
 		".next-bg",
 		".python-bg",
 		".react-native-bg",
+		".expo-bg",
 		".react-bg",
 		".docker-bg",
 		".linux-bg",
