@@ -150,11 +150,11 @@ const estilosHoverAppMobile = {
 	mysql: { backgroundColor: "#00758f", color: "#fff" },
 	laravel: { backgroundColor: "#ff2d20", color: "#fff" },
 	reactnative: { backgroundColor: "#306d7e", color: "#fff" },
+	expo: { backgroundColor: "#000000", color: "#fff" },
 	git: { backgroundColor: "#141414", color: "#fff" },
 	typescript: { backgroundColor: "#17395d", color: "#fff" },
 	figma: { backgroundColor: "#f24e1e", color: "#fff" },
 	apache: { backgroundColor: "#cc3333", color: "#fff" },
-	expo: { backgroundColor: "#000000", color: "#fff" },
 	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 };
 aplicarEfeitoHover(
@@ -257,6 +257,7 @@ const estilosHoverManutencao = {
 	next: { backgroundColor: "#000000", color: "#fff" },
 	python: { backgroundColor: "#18354d", color: "#fff" },
 	reactnative: { backgroundColor: "#306d7e", color: "#fff" },
+	expo: { backgroundColor: "#000000", color: "#fff" },
 	react: { backgroundColor: "#306d7e", color: "#fff" },
 	docker: { backgroundColor: "#0db7ed", color: "#fff" },
 	linux: { backgroundColor: "#000000", color: "#fff" },
@@ -265,7 +266,6 @@ const estilosHoverManutencao = {
 	phpstan: { backgroundColor: "#3c1ac4", color: "#fff" },
 	apirest: { backgroundColor: "#0e59c2", color: "#fff" },
 	postgresql: { backgroundColor: "#336791", color: "#fff" },
-	expo: { backgroundColor: "#000000", color: "#fff" },
 };
 aplicarEfeitoHover(
 	".manutencao",
