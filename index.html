@@ -12,23 +12,26 @@
 			href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,600&display=swap"
 			rel="stylesheet"
 		/>
+		<script src="https://cdn.tailwindcss.com"></script>
 
 		<title>Conan Torres - Desenvolvedor</title>
 	</head>
 
-	<body>
-		<main class="introducao">
-			<div class="introducao-imagem">
+	<body class="mx-auto">
+		<main class="max-w-[1300px] grid grid-cols-1 md:grid-cols-2 p-5 md:p-10 items-center justify-center mx-auto gap-4 md:gap-8">
+			<div class="flex justify-center md:justify-end items-center">
 				<img
 					src="./img/profile.jpg"
 					alt="Conan Torres"
-					width="250"
-					height="250"
+					width="200"
+					height="200"
+					class="rounded-full ml-0 hover:scale-105 transition-all duration-300 shadow-lg shadow-[#858585] hover:shadow-[#424242] mr-0 md:mr-10"
+					loading="lazy"
 				/>
 			</div>
-			<div class="introducao-texto">
-				<h1>Desenvolvedor<br />Full-stack</h1>
-				<p>Florianópolis - SC</p>
+			<div class="w-full text-center md:text-left">
+				<h1 class="text-3xl md:text-5xl leading-tight mb-2 md:mb-4 relative w-full text-[#121220] hover:tracking-wide transition-all duration-300">Desenvolvedor<br />Full-Stack</h1>
+				<p class="text-lg md:text-xl text-gray-600 w-full hover:tracking-wide transition-all duration-300">Florianópolis - SC</p>
 			</div>
 		</main>
 
@@ -36,7 +39,7 @@
 			<h2 class="subtitulo sub1">Experiência</h2>
 			<div>
 				<p class="experiencia-texto">
-					Olá! Meu nome é <strong class="conan">Conan</strong>, tenho
+					Olá! Meu nome é <strong class="hover:tracking-[1.5px] hover:text-[#42809d] transition-all duration-300">Conan</strong>, tenho
 					23 anos e sou desenvolvedor
 					<strong class="transition fullstack">Full Stack</strong>.
 					gosto de atuar em todo o ciclo de vida do desenvolvimento de
