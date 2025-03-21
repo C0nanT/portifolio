@@ -24,15 +24,6 @@
   left: 30px;
 }
 
-.formacao .subtitulo {
-  background: #0093e9;
-  background: linear-gradient(160deg, #80d0c7 0%, #0093e9 100%);
-  background-clip: rgba(0, 0, 0, 0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 5ch;
-}
-
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;

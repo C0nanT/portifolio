@@ -40,10 +40,6 @@
 	transition: all 0.3s;
 }
 
-.subtitulo:hover {
-	letter-spacing: 1px;
-}
-
 .projetos-texto {
 	font-size: 1.5rem;
 	line-height: 1.33;
