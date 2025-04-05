@@ -1,10 +1,26 @@
 .formacao {
-  background-color: #003153;
+  background: rgb(0, 49, 83);
+  background: -moz-linear-gradient(
+    0deg,
+    rgb(0, 36, 62) 0%,
+    rgba(16, 17, 30, 1) 50%rgb(0, 36, 62) 0%,
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(0, 36, 62) 0%,
+    rgba(16, 17, 30, 1) 50%
+  );
+  background: linear-gradient(
+    0deg,
+    rgb(0, 36, 62) 0%,
+    rgba(16, 17, 30, 1) 50%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#003153",endColorstr="#10111e",GradientType=1);
   color: #eef9ff;
 }
 
 .formacao-container {
-  max-width: 1300px;
+  max-width: 1200px;
   padding: 120px 20px;
   margin: 0 auto;
   display: grid;
@@ -13,142 +29,169 @@
   position: relative;
 }
 
-.formacao-container::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 200px;
-  height: 72px;
-  background: url("../img/detalhe.svg") no-repeat center;
-  bottom: -36px;
-  left: 30px;
-}
-
 .formacao .subtitulo {
-  background: #0093e9;
-  background: linear-gradient(160deg, #80d0c7 0%, #0093e9 100%);
-  background-clip: rgba(0, 0, 0, 0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 5ch;
+	background: #0093e9;
+	background: linear-gradient(160deg, #0ba6ff 0%, #9ddbff 50%);
+	background-clip: rgba(0, 0, 0, 0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 0.3s;
+}
+.subtitulo:hover {
+	letter-spacing: 1px;
 }
 
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;
+  max-width: 100%;
   margin-bottom: 60px;
-  max-width: 40ch;
-  color: #dcf3ff;
+  color: #c6c6c6;
 }
 
 .formacao-texto strong {
-  color: white;
+  color: #ffffff;
+  transition: all 0.3s;
 }
 
-.faculdade-lista {
+.formacao-texto strong:hover {
+  letter-spacing: 1px;
+}
+
+.ads {
+  color: #96d9ff !important;
+}
+
+.ads:hover {
+  color: #51bfff !important;
+}
+
+#uniasselvi:hover {
+  color: #e9ca00 ;
+}
+
+.formacao-lista {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 60px;
 }
 
-.faculdade {
+.formacao-item {
   flex: 1;
-  background: #00030c;
+  background: #000015;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s; 
 }
 
-.faculdade-tipo {
+.formacao-item:hover {
+  background: #0a0a1f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  scale: 1.02;
+}
+.formacao-item:hover .formacao-nome {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.formacao-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #00adff;
+  color: #cfcfcf;
   margin-bottom: 10px;
 }
 
-.faculdade-curso {
-  flex: 1;
+.formacao-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formacao-link-div{
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.formacao-link{
+  color: #2862c0;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: all 0.3s;
+}
+
+.formacao-link:hover {
+  color: #0a4f9c;
+  letter-spacing: 1px;
+}
+
+.formacao-nome {
   font-size: 1.125rem;
   line-height: 1.4;
-  margin-bottom: 40px;
+  margin: 10px 0 18px;
   position: relative;
 }
 
-.faculdade-curso::before {
+.formacao-nome a {
+  color: #f3feff;
+  transition: all 0.3s;
+}
+
+.formacao-nome a:hover {
+  letter-spacing: 1px;
+}
+
+.formacao-nome::before {
   content: "";
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#6dd8ff, #b2e8ff);
+	background: linear-gradient(#6dd8ff, #b2e8ff);
   position: absolute;
-  top: -25px;
   left: -24px;
 }
 
-.faculdade-instituicao {
+.formacao-instituicao {
   font-size: 1.125rem;
-  color: #008adf;
+  color: #a3a3a3;
+}
+
+.formacao-ano {
+  color: #a3a3a3;
+  font-size: 0.875rem;
+  margin-top: auto;
+}
+
+.formacao-extra {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
 .cursos {
   margin-bottom: 60px;
 }
-
-.formacao-extra h3 {
-  font-size: 0.875rem;
-  line-height: 1.4;
-  color: #7bc3f0;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-  position: relative;
-}
-
-.formacao-extra h3::before {
-  display: block;
-  content: "";
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: -36px;
-  top: -4px;
-}
-
-.cursos h3::before {
-  background: url("../img/cursos.svg") no-repeat center center;
-}
-
-.idiomas h3::before {
-  background: url("../img/idiomas.svg") no-repeat center center;
-}
-
-.formacao-extra li {
-  font-size: 1.125rem;
-  line-height: 1.1;
-  margin-bottom: 20px;
-}
-
-.formacao-extra span {
-  color: #7bc3f0;
-}
-
-.cursos li {
-  display: flex;
-  justify-content: space-between;
-}
-
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 40px;
   }
+  
+  .formacao .subtitulo {
+    color: #ffffff;
+  }
+  
   .formacao-texto {
     font-size: 1.25rem;
   }
-  .formacao-extra h3::before {
-    position: initial;
-    margin-bottom: 10px;
+  
+  .formacao-extra {
+    grid-template-columns: 1fr;
   }
 }

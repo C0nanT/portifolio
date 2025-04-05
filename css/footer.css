@@ -1,5 +1,5 @@
 .footer {
-  background-color: #10111e;
+  background-color: #00233d;
 }
 
 .footer-container {
@@ -35,7 +35,7 @@
 .footer-copy {
   grid-column: 1/-1;
   font-size: 0.825rem;
-  color: #0093e9;
+  color: #4bbdff;
   align-items: center;
   justify-content: center;
   display: flex;
