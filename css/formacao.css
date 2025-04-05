@@ -93,6 +93,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   scale: 1.02;
 }
+
 .formacao-item:hover .formacao-nome {
   color: #ffffff;
   letter-spacing: 1px;
