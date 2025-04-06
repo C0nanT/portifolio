@@ -212,6 +212,21 @@
 	color: white;
 }
 
+.docker-habilidade {
+	background-color: #0db7ed;
+	color: white;
+}
+
+.nodejs-habilidade {
+	background-color: #8cc84b;
+	color: white;
+}
+
+.nginx-habilidade {
+	background-color: #009639;
+	color: white;
+}
+
 .jquery-habilidade {
 	background-color: #0769ad;
 	color: white;
