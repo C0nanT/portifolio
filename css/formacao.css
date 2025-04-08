@@ -85,7 +85,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: all 0.3s; 
+  transition: all 0.3s;
+  min-width: 250px;
 }
 
 .formacao-item:hover {
