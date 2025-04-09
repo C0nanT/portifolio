@@ -219,6 +219,26 @@
 	color: white;
 }
 
+.postgresql-habilidade {
+	background-color: #336791;
+	color: white;
+}
+
+.phpstan-habilidade {
+	background-color: #143957;
+	color: #fff;
+}
+
+.pest-habilidade {
+	background-color: #f675b5;
+	color: #fff;
+}
+
+.express-habilidade {
+	background-color: #0f0f0f;
+	color: white;
+}
+
 .nodejs-habilidade {
 	background-color: #8cc84b;
 	color: white;
